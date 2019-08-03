@@ -1,0 +1,21 @@
+
+File list:
+Makefile
+main.cpp
+anagram.cpp
+words.txt
+testCase.txt
+README
+runme.sh
+
+Description:
+Inside the main.cpp file is main function and printAnagram that prints the results. 
+Inside anagram.cpp is the function that take a set of characters as input and output all the possible anagrams from the dictionary, which is words.txt a copy of https://raw.githubusercontent.com/lad/words/master/words. 
+Makefile is used to compile the program.
+testCase.txt is a list words that use for testing purpose.
+runme.sh is a shell script that can compile and execute the program at same time.
+
+Instruction:
+  1. run the shell script can directly compile, run the program and go through test cases in the testCase.txt.
+
+  2. User can run the program manually. Firstly do “make” command to compile the program, Secondly do “./anagram <set of characters>”, which execute the program with an argument and find the anagram for the word you input. if execute the grogram without no argument, it will automatically run the test cases, only if user run the program with an argument, it will enter manual mode, user can test their test cases one by one. 
